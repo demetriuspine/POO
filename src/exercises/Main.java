@@ -12,7 +12,7 @@ public class Main {
     carro1.setCor("Azul calcinha");
     carro1.setAno(1976);
 
-    System.out.println("\n");
+    System.out.println("");
     System.out.println("carro2");
     
     carro2.setMarca("Fiat");
