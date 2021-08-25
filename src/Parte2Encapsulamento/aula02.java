@@ -11,5 +11,9 @@ public class aula02 {
 
     System.out.println(aluno2);//toString está implícito
 
+    Aluno aluno3 = new Aluno("mefistófoles", "58218-yu", 4, 2, 9);
+
+    System.out.println(aluno3);
+
   }
 }
