@@ -9,7 +9,7 @@ public class aula02 {
 
     Aluno aluno2 = new Aluno("pedro", "81622073", 7, 8, 0);
 
-    System.out.println(aluno2);
+    System.out.println(aluno2);//toString está implícito
 
   }
 }
