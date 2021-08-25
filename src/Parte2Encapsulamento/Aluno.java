@@ -23,10 +23,16 @@ public class Aluno {
   public String toString() {
     return "Aluno [ Nome: " + nome + ", Matrícula: " + matricula
     + ", Nota 1: " + nota1 + ", Nota 2: " + nota2 + ", Reavaliação: "
-    + notaReavaliacao + ", Média: " + calcularMedia() + "]";
+    + notaReavaliacao + ", Média: " + mediaFinal() + "]";
   }
 
   public double calcularMedia() {
     return (nota1 + nota2) / 2;
+  }
+
+  public double mediaFinal() {
+    if (calcularMedia() >= 6) {
+      return calcularMedia();
+    } return (calcularMedia() + notaReavaliacao) / 2;
   }
 }
