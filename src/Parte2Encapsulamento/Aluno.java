@@ -21,7 +21,9 @@ public class Aluno {
 
   @Override//reescrever o código apenas para esse filho
   public String toString() {
-    return "Aluno [ Nome: " + nome + ", Matrícula: " + matricula + ", Nota 1: " + nota1 + ", Nota 2: " + nota2 + ", Reavaliação: " + notaReavaliacao + ", Média: " + calcularMedia() + "]";
+    return "Aluno [ Nome: " + nome + ", Matrícula: " + matricula
+    + ", Nota 1: " + nota1 + ", Nota 2: " + nota2 + ", Reavaliação: "
+    + notaReavaliacao + ", Média: " + calcularMedia() + "]";
   }
 
   public double calcularMedia() {
