@@ -18,4 +18,9 @@ public class Aluno {
     nota2 = n2;
     notaReavaliacao = nReavaliação;
   }
+
+  @Override//reescrever o código
+  public String toString() {
+    return "Aluno [ Nome: " + nome + ", Matrícula: " + matricula + ", Nota 1: " + nota1 + ", Nota 2: " + nota2 + ", Reavaliação: " + notaReavaliacao + "]";
+  }
 }
