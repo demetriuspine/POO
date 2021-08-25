@@ -1,6 +1,6 @@
 ## Programação Orientada a Objetos
 
-Esse repositório tem o simples objetivo de armazenar minha anotações e exercícios sobre a famigerada POO.
+Esse repositório tem o simples objetivo de armazenar minha anotações e exercícios sobre a famigerada POO em Java.
 
 ## Getting Started
 
