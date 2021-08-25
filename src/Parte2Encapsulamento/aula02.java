@@ -15,5 +15,9 @@ public class aula02 {
 
     System.out.println(aluno3);
 
+    Aluno aluno4 = new Aluno("temístocles", "88425-bb", 4, 2, 4);
+
+    System.out.println(aluno4);
+
   }
 }

@@ -6,6 +6,7 @@ public class Aluno {
   double nota1;
   double nota2;
   double notaReavaliacao;
+  String situacao;
 
   Aluno() {
     System.out.println("passei pelo método construtor");
@@ -23,7 +24,8 @@ public class Aluno {
   public String toString() {
     return "Aluno [ Nome: " + nome + ", Matrícula: " + matricula
     + ", Nota 1: " + nota1 + ", Nota 2: " + nota2 + ", Reavaliação: "
-    + notaReavaliacao + ", Média: " + mediaFinal() + "]";
+    + notaReavaliacao + ", Média: " + mediaFinal() + ", Situação: "
+    + situacao() + "]";
   }
 
   public double calcularMedia() {
@@ -34,5 +36,11 @@ public class Aluno {
     if (calcularMedia() >= 6) {
       return calcularMedia();
     } return (calcularMedia() + notaReavaliacao) / 2;
+  }
+
+  public String situacao() {
+    if (mediaFinal() >= 6) {
+      return "Aprovado";
+    } return "Reprovado";
   }
 }
