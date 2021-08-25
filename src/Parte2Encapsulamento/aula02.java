@@ -15,9 +15,5 @@ public class aula02 {
 
     System.out.println(aluno3);
 
-    System.out.println(aluno2.calcularMedia());
-    System.out.println(aluno3.calcularMedia());
-
-
   }
 }
